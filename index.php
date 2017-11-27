@@ -28,26 +28,26 @@
     <!-- ===========================
     FAVICONS
     =========================== -->
-    <link rel="icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+    <link rel="icon" href="<?php bloginfo(template_url); ?>/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo(template_url); ?>/img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo(template_url); ?>/img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo(template_url); ?>/img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo(template_url); ?>/img/apple-touch-icon-iphone.png" />
 
     <!-- ===========================
     STYLESHEETS
     =========================== -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/preloader.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<?php bloginfo(template_url); ?>/css/preloader.css">
+    <link rel="stylesheet" href="<?php bloginfo(template_url); ?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo(template_url); ?>/css/responsive.css">
+    <link rel="stylesheet" href="<?php bloginfo(template_url); ?>/css/animate.css">
+    <link href="<?php bloginfo(template_url); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php bloginfo(template_url); ?>/css/layout.min.css" rel="stylesheet" type="text/css" />
     <!-- ===========================
     ICONS:
     =========================== -->
-    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="<?php bloginfo(template_url); ?>/css/simple-line-icons.css">
 
     <!-- ===========================
     GOOGLE FONTS
@@ -84,7 +84,7 @@
             </div>
 
             <!-- Featured image on the Hero area -->
-            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="img/hero-img.png" alt="Featured Work">
+            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="<?php bloginfo(template_url); ?>/img/hero-img.png" alt="Featured Work">
         </div>
         <!--HERO AREA END-->
 
@@ -141,10 +141,10 @@
             <div class="col-md-9">
                 <ul>
                     <!--CLIENTS LOGO-->
-                    <li><img src="img/payoneer.png" alt="Payoneer"></li>
-                    <li><img src="img/amazon.png" alt="Amazon"></li>
-                    <li><img src="img/elance-odesk.png" alt="Elance-oDesk"></li>
-                    <li><img src="img/curb.png" alt="Curb Envy"></li>
+                    <li><img src="<?php bloginfo(template_url); ?>/img/payoneer.png" alt="Payoneer"></li>
+                    <li><img src="<?php bloginfo(template_url); ?>/img/amazon.png" alt="Amazon"></li>
+                    <li><img src="<?php bloginfo(template_url); ?>/img/elance-odesk.png" alt="Elance-oDesk"></li>
+                    <li><img src="<?php bloginfo(template_url); ?>/img/curb.png" alt="Curb Envy"></li>
                 </ul>
                 <!--CLIENTS LOGO END-->
             </div>
@@ -180,11 +180,11 @@
 
                 <ul>
                     <!-- FAVORITE APP ICONS START -->
-                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/photoshop.svg" alt="Photoshop"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/illustrator.svg" alt="Illustrator"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="img/flash.svg" alt="Adobe Flash"></li>
-                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="img/after_effects.svg" alt="After Effects"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="img/indesign.svg" alt="InDesign"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="<?php bloginfo(template_url); ?>/img/photoshop.svg" alt="Photoshop"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="<?php bloginfo(template_url); ?>/img/illustrator.svg" alt="Illustrator"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="<?php bloginfo(template_url); ?>/img/flash.svg" alt="Adobe Flash"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="<?php bloginfo(template_url); ?>/img/after_effects.svg" alt="After Effects"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="<?php bloginfo(template_url); ?>/img/indesign.svg" alt="InDesign"></li>
                 </ul>
                 <!-- FAVORITE APP ICONS END -->
             </div>
@@ -194,7 +194,7 @@
 
         <!-- RIGHT PART OF THE ABOUT SECTION -->
         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
-            <img src="img/user.png" alt="Mamun Srizon">
+            <img src="<?php bloginfo(template_url); ?>/img/user.png" alt="Mamun Srizon">
         </div>
         <!-- RIGHT PART OF THE ABOUT SECTION END -->
     </div>
@@ -202,7 +202,7 @@
 
     <hr>
     <!-- SECTION SEPARETOR LINE -->
-  <!-- About -->
+    <!-- About -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -265,42 +265,42 @@
         <!-- SERVICE ITEMS START -->
         <div class="row">
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                <img src="img/s1.png" alt="">
+                <img src="<?php bloginfo(template_url); ?>/img/s1.png" alt="">
                 <h4>Responsive Web Design</h4>
                 <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
             </div>
             <!-- ITEM END -->
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                <img src="img/s2.png" alt="">
+                <img src="<?php bloginfo(template_url); ?>/img/s2.png" alt="">
                 <h4>Android App Design</h4>
                 <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
             </div>
             <!-- ITEM END -->
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                <img src="img/s3.png" alt="">
+                <img src="<?php bloginfo(template_url); ?>/img/s3.png" alt="">
                 <h4>iOS App Design</h4>
                 <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
             </div>
             <!-- ITEM END -->
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                <img src="img/s4.png" alt="">
+                <img src="<?php bloginfo(template_url); ?>/img/s4.png" alt="">
                 <h4>Windows App Design</h4>
                 <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
             </div>
             <!-- ITEM END -->
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                <img src="img/s5.png" alt="">
+                <img src="<?php bloginfo(template_url); ?>/img/s5.png" alt="">
                 <h4>Brand Identity Design</h4>
                 <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
             </div>
             <!-- ITEM END -->
 
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
-                <img src="img/s6.png" alt="">
+                <img src="<?php bloginfo(template_url); ?>/img/s6.png" alt="">
                 <h4>CMYK Print Design</h4>
                 <p>Grinder affogato, dark, sweet carajillo, flavour seasonal aroma single origin cream. Percolator. Eligendi impedit dolores nulla.</p>
             </div>
@@ -324,7 +324,8 @@
         <!-- PORTFOLIO ITEMS START -->
         <div class="portfolioitems container">
             <div class="row">
-                <ul class="shots"></ul><!--CONFIGURE PORTFOLIO ON js/drifolio.js-->
+                <ul class="shots"></ul>
+                <!--CONFIGURE PORTFOLIO ON js/drifolio.js-->
             </div>
         </div>
         <!-- PORTFOLIO ITEMS END -->
@@ -354,7 +355,7 @@
             <!-- 1ST TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
                 <div class="clientsphoto">
-                    <img src="img/dan.jpg" alt="Dan">
+                    <img src="<?php bloginfo(template_url); ?>/img/dan.jpg" alt="Dan">
                 </div>
 
                 <div class="quote">
@@ -370,7 +371,7 @@
             <!-- 2ND TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
                 <div class="clientsphoto">
-                    <img src="img/bill.jpg" alt="Bill">
+                    <img src="<?php bloginfo(template_url); ?>/img/bill.jpg" alt="Bill">
                 </div>
 
                 <div class="quote">
@@ -386,7 +387,7 @@
             <!-- 3RD TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
                 <div class="clientsphoto">
-                    <img src="img/eric.png" alt="Eric">
+                    <img src="<?php bloginfo(template_url); ?>/img/eric.png" alt="Eric">
                 </div>
 
                 <div class="quote">
@@ -402,7 +403,7 @@
             <!-- 4TH TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
                 <div class="clientsphoto">
-                    <img src="img/ramil.jpg" alt="Ramil">
+                    <img src="<?php bloginfo(template_url); ?>/img/ramil.jpg" alt="Ramil">
                 </div>
 
                 <div class="quote">
@@ -417,80 +418,80 @@
         </div>
     </div>
     <!-- TESTIMONIAL SECTION END -->
-     <hr>
+    <hr>
     <!-- Section: about -->
     <section id="about" class="home-section text-center">
         <div class="heading-about">
             <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>About us</h2>
-                    <i class="fa fa-2x fa-angle-down"></i>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                            <div class="section-heading">
+                                <h2>About us</h2>
+                                <i class="fa fa-2x fa-angle-down"></i>
 
-                    </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
         <div class="container">
 
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.2s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>Anna Hanaceck</h5>
-                        <p class="subtitle">Pixel Crafter</p>
-                        <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.2s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5>Anna Hanaceck</h5>
+                                <p class="subtitle">Pixel Crafter</p>
+                                <div class="avatar"><img src="<?php bloginfo(template_url); ?>/img/team/1.jpg" alt="" class="img-responsive img-circle" /></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.5s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>Maura Daniels</h5>
-                        <p class="subtitle">Ruby on Rails</p>
-                        <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
+                <div class="col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5>Maura Daniels</h5>
+                                <p class="subtitle">Ruby on Rails</p>
+                                <div class="avatar"><img src="<?php bloginfo(template_url); ?>/img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.8s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>Jack Briane</h5>
-                        <p class="subtitle">jQuery Ninja</p>
-                        <div class="avatar"><img src="img/team/3.jpg" alt="" class="img-responsive img-circle" /></div>
+                <div class="col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="0.8s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5>Jack Briane</h5>
+                                <p class="subtitle">jQuery Ninja</p>
+                                <div class="avatar"><img src="<?php bloginfo(template_url); ?>/img/team/3.jpg" alt="" class="img-responsive img-circle" /></div>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="1s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>Tom Petterson</h5>
-                        <p class="subtitle">Typographer</p>
-                        <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
+                <div class="col-md-3">
+                    <div class="wow bounceInUp" data-wow-delay="1s">
+                        <div class="team boxed-grey">
+                            <div class="inner">
+                                <h5>Tom Petterson</h5>
+                                <p class="subtitle">Typographer</p>
+                                <div class="avatar"><img src="<?php bloginfo(template_url); ?>/img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
             </div>
-        </div>
         </div>
     </section>
     <!-- /Section: about -->
@@ -536,24 +537,25 @@
         </div>
     </footer>
     <!-- FOOTER END -->
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/jquery.appear.js" type="text/javascript"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/jquery.min.js" type="text/javascript"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/jquery.appear.js" type="text/javascript"></script>
 
-     <!-- Include all compiled plugins (below), or include individual files as needed -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
     <!--Other necessary scripts-->
-    <script src="js/jquery.nicescroll.min.js"></script>
-  <script src="js/jribbble.min.js"></script>
-  <script src="js/drifolio.js"></script>
-  <script src="js/wow.min.js"></script>
-   <script src="js/progress-bar.min.js" type="text/javascript"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/jquery.nicescroll.min.js"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/jribbble.min.js"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/drifolio.js"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/wow.min.js"></script>
+    <script src="<?php bloginfo(template_url); ?>/js/progress-bar.min.js" type="text/javascript"></script>
 
-   <!--  <script src="js/jquery.min.js" type="text/javascript"></script> -->
-<!-- <script src="js/jquery.appear.js" type="text/javascript"></script> -->
-<script>
-      new WOW().init();
-  </script>
+    <!--  <script src="js/jquery.min.js" type="text/javascript"></script> -->
+    <!-- <script src="js/jquery.appear.js" type="text/javascript"></script> -->
+    <script>
+        new WOW().init();
+
+    </script>
 </body>
 
 </html>
