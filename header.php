@@ -59,17 +59,22 @@
                 </div>
 
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                    <?php wp_nav_menu(array(
+    'theme_location' => 'header_menu',
+    'container_class' => '',
+    'menu_class' => 'nav navbar-nav navbar-right'
+)); ?>
+                    <!-- <ul class="nav navbar-nav navbar-right">
+                        YOUR NAVIGATION ITEMS STRAT BELOW
                         <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
                         <li><a href="#services"><span class="btnicon icon-cup"></span>Services</a></li>
                         <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a></li>
-                        <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Testimonials</a></li>
+                        <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Testimonials</a></li>-->
 
-                        <!--don't forget to replace the email address below with yours-->
-                        <li><a href="mailto:you@yourmail.com"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
-                        <li class="active"><a href=""><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
-                    </ul>
+                    <!--don't forget to replace the email address below with yours-->
+                    <!--<li><a href="mailto:you@yourmail.com"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+<li class="active"><a href=""><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+</ul>-->
 
                 </div>
                 <!--.nav-collapse -->

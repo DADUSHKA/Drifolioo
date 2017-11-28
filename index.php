@@ -128,9 +128,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <h3 class="title-small">
-                        <span>Skills</span>
-                    </h3>
+                    <h4>
+                        Skills
+                    </h4>
                     <p class="content-detail">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                     </p>
@@ -348,7 +348,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="wow bounceInDown" data-wow-delay="0.4s">
                             <div class="section-heading">
-                                <h2>About us</h2>
+                                <h2>TheTeam</h2>
                                 <i class="fa fa-2x fa-angle-down"></i>
 
                             </div>
