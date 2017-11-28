@@ -19,8 +19,21 @@ function load_style_script(){
 * загружаем скрипты и стили
 */
 add_action('wp_enqueue_scripts', 'load_style_script');
+/**
+*загружаем иконки
+*/
+add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
+function enqueue_font_awesome() {
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
+}
 
-
+/**
+* регистрируем меню
+**/
+register_nav_menus(array(
+	'header_menu' => 'Меню в шапке',
+	'footer_menu' => 'Меню в подвале'
+));
 
 
 

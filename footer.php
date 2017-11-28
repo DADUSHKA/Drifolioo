@@ -4,16 +4,21 @@
 
         <div class="footerlinks">
             <!-- FOOTER LINKS START -->
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+            <?php wp_nav_menu(array(
+    'theme_location' => 'footer_menu',
+    'container_class' => '',
+    'menu_class' => ''
+)); ?>
+           <!--<ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
 
-                <!--replace the email address below with your email address-->
-                <li><a href="mailto:you@yourmail.com">Contact</a></li>
-            </ul>
+    replace the email address below with your email address
+    <li><a href="mailto:you@yourmail.com">Contact</a></li>
+</ul>-->
         </div>
         <!-- FOOTER LINKS END -->
 
